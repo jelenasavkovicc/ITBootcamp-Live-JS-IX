@@ -15,8 +15,11 @@ console.log(zbir)
 
 sabirak1 = 99
 
-
+// 5.123
+//-9.321
+//-4.198
 console.log('---------------------')
 console.log(5.123 - 9.321)
 console.log(3 ** 5)
 console.log(3 % 5)
+
