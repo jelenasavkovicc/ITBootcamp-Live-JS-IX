@@ -44,5 +44,4 @@ switch(danUNedelji){
         break
     default:
         console.log('мора између 1 и 7')
-    
 }

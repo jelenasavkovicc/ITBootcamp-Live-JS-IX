@@ -36,6 +36,45 @@
     else{
         console.error('Грешка') // console.warn()
     }
-    
 }
+
+// 3) На основу дана у недељи (задат бројем од 1 до 7) написати да ли је викенд
+// ● Ако се зада број 6 или 7 исписати true (субота,недеља)
+// ● У супротном исписати false
+{
+    let danUNedelji = 6
+    if(danUNedelji == 6 || danUNedelji == 7){
+        console.log(true)
+    }
+    else if(danUNedelji > 0 && danUNedelji < 6){
+        console.log(false)
+    }
+    else{
+        console.log('Грешка - број не сме бити мањи од 1 и већи од 7')
+    }
+}
+
+// 4) На основу количине и цене артикла, исписати укупну цену
+// ● Количина је задата у грамима
+// ● Цена је задата по килограму
+// 5) Допунити 4. задатак количином новца, и исписати рачун 
+// (ако нема довољно новца, исписати поруку)
+{
+    let kolicina = 250 // g
+    let cenaPoKg = 1232.86 // cena/kg
+    let novac = 200
+
+    let ukupnaCena = (kolicina / 1000) * cenaPoKg
+    console.log('Цена',ukupnaCena)
+
+    if(ukupnaCena > novac){
+        console.log('Немате довољно средстава')
+    }
+    else{
+        console.log('Кусур је',novac - ukupnaCena)
+    }
+}
+
+
+
 
